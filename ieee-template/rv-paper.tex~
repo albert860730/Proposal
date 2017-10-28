@@ -73,7 +73,7 @@ EQUIPMENTS part, you should list the hardware which is necessary in your projecy
 \begin{figure}[t]
 \includegraphics[width=0.7\columnwidth]{gazebo_view}
 \centering
-\caption{gazebo view}
+\caption{gazebo_view}
 \end{figure}
 
 \begin{figure}[h]
