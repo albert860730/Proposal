@@ -92,11 +92,12 @@ I will build a virtual world and models in Gazebo, and try to move all of my pat
 
 I will modify the lane following in duckietown, to let my robot can patrol along the yellow line. And I will use apriltags with different ID to let the robot know which node they are patrolling now, it's kind of locate the robot.
 
-The algorithm I use is to measure the idleness of each node first, and than the master robot will coordinate every robot to let the nodes with large idleness be patrolled first. If any node is going to be patrolled, the idleness will return to zero, so that no two robots will go to the same node at the same time, and it can avoid collision.   
+The algorithm I use is refer to "Distributed On-line Dynamic Task Assignment for Multi-robot Patrolling"~\cite{Farinelli:2017:DOD:3124264.3124274}, we will measure the idleness of each node first, and than the master robot will coordinate every robot to let the nodes with large idleness be patrolled first. If any node is going to be patrolled, the idleness will return to zero, so that no two robots will go to the same node at the same time, and it can avoid collision.   
+
 
 \section{SCHEDULE AND TEAM COLLABORATION}
 
-I expect this project can finish real world patrolling before November, and can excute in Gazebo before December. And the experiment video is available in this link: \url{https://goo.gl/sDwa9j}rqt\_graph~\cite{Farinelli:2017:DOD:3124264.3124274}
+I expect this project can finish real world patrolling before November, and can excute in Gazebo before December. And the experiment video is available in this link: \url{https://goo.gl/sDwa9j}
 
 \addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
                                   % on the last page of the document manually. It shortens
